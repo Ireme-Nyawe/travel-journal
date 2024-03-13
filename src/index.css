@@ -28,6 +28,9 @@ font-family: Arial, Helvetica, sans-serif;
 .cards-container{
 width: 100%;
 }
+.cards-container a{
+    color: #918E9B;
+}
 .card{
     display: flex;
     width: 100%;
@@ -44,12 +47,11 @@ width: 100%;
 .line1-card{
     display: flex;
     align-items: center;
-    width: 70%;
+    width: 80%;
     justify-content: space-between;
 }
 .location-icon{
-    margin: 0;
-    margin-right: -40px;
+    margin-right: 4px;
 }
 .description{
     margin-top: 8px;
