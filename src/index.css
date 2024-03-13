@@ -3,6 +3,14 @@
 margin: 0;
 box-sizing: border-box;
 }
+.travel-journal{
+    width: 550px;
+    height: 545px;
+    position: fixed;
+    top: 0%;
+    left: 50%;
+    transform: translate(-50%,0%);
+}
 .nav{
     background: #F55A5A;
 }
