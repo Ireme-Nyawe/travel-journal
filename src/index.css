@@ -24,3 +24,39 @@ font-family: Arial, Helvetica, sans-serif;
     margin-left: 5px;
     color: white;
 }
+/* card */
+.cards-container{
+width: 100%;
+}
+.card{
+    display: flex;
+    width: 100%;
+    padding: 25px;
+}
+.card-image{
+    width: 25%;
+    margin-right: 10px;
+}
+.card-part{
+    width: 75%;
+    align-items: center;
+}
+.line1-card{
+    display: flex;
+    align-items: center;
+    width: 70%;
+    justify-content: space-between;
+}
+.location-icon{
+    margin: 0;
+    margin-right: -40px;
+}
+.description{
+    margin-top: 8px;
+}
+.date-range{
+    margin-top: 16px;
+}
+.title{
+    margin-top: 4px;
+}
