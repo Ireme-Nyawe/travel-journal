@@ -1,4 +1,4 @@
-export default function Card() {
+export default function Card(props) {
   return (
     <div className="card">
       <img
@@ -16,7 +16,7 @@ export default function Card() {
           <span>JAPAN</span>
           <a href="">View on Google Maps</a>
         </div>
-        <h2 className="title">Title</h2>
+        <h2 className="title">{props.name}</h2>
         <h4 className="date-range">1222-333</h4>
         <p className="description">
           Mount Fuji is the tallest mountain in Japan, standing at 3,776 meters
